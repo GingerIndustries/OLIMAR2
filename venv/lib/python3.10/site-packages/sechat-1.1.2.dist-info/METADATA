@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sechat
+Version: 1.1.2
+Summary: A BETTER Stack Exchange chat library.
+Author: Ginger
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: requests (>=2.27.0,<3.0.0)
+Requires-Dist: websocket-client (>=1.3.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# sechat
+[![Documentation Status](https://readthedocs.org/projects/sechat/badge/?version=latest)](https://sechat.readthedocs.io/en/latest/?badge=latest) [![Upload Python Package](https://github.com/GingerIndustries/sechat/actions/workflows/poetry.yml/badge.svg)](https://github.com/GingerIndustries/sechat/actions/workflows/poetry.yml) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sechat) ![PyPI](https://img.shields.io/pypi/v/sechat) ![PyPI - Downloads](https://img.shields.io/pypi/dm/sechat)
+
+A _better_ Stack Exchange Chat library.
+
+[Documentation!](https://sechat.readthedocs.io/en/latest/)
+
+Install from pypi using `pip install sechat`.
+
