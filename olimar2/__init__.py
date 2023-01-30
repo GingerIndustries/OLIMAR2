@@ -53,7 +53,7 @@ class OLIMAR2:
                 return
             threading.Thread(target = self.run, args = (event, language, code)).start()
         else:
-            if match := re.match("(.+): ?(.+)", soup.get_text(strip = True)):
+            if match := re.match("(\w+?): ?(.+)", soup.get_text(strip = True)):
                 language, code = match.groups()
                 if language not in self.languages:
                     self.room.send(f"Unknown language: {language}")
