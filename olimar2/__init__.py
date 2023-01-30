@@ -8,7 +8,7 @@ import threading
 import re
 import logging
 
-from olimar.ato import ATO, Result, StatusType
+from olimar2.ato import ATO, Result, StatusType
 
 class OLIMAR2:
     def __init__(self, languages: list[str], room: Room, logger: logging.Logger):
