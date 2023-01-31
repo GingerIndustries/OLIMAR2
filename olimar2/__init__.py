@@ -26,7 +26,7 @@ class OLIMAR2:
         match result.status.type:
             case StatusType.TIMED_OUT:
                 self.logger.info(f"{event.message_id} timed out.")
-                self.logger.edit(message, self.room.buildReply(event.user_id, "Timed out."))
+                self.room.edit(message, self.room.buildReply(event.user_id, "Timed out."))
                 return
             case StatusType.KILLED:
                 resultString = "Process was killed."
